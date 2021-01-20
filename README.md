@@ -43,3 +43,8 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+# Heroku Deployment
+pip3 freeze --local > requirements.txt
+echo web: app.py > Procfile
+The Procfile sometimes has a blank line below. Remove that and go on to Heroku.com
