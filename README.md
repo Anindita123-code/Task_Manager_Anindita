@@ -48,3 +48,8 @@ Happy coding!
 pip3 freeze --local > requirements.txt
 echo web: app.py > Procfile
 The Procfile sometimes has a blank line below. Remove that and go on to Heroku.com
+
+After the requirements and the Procfile are created, add them to the staging area by using Git add command. Commit and push them to the github repository
+Login to heroku.com and go to settings. In the settings we need to add the config vars which are there in the env.py (IP, PORT, SECRET_KEY, MONGO_URI, MONGO_DBNAME)
+Once this is done, we need to go to the Deploy tab. In the Deploy tab. Here we need to select Deployment method as Github. Select "Enable Automatic Deployment" (After requirements.txt and Procfile has been pushed to github)
+And then press "Deploy Branch" the files will be deployed and once this is done successfully a View button will show up. You can click this and open up the newly deployed app
