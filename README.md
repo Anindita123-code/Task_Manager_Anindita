@@ -46,7 +46,7 @@ Happy coding!
 
 # Heroku Deployment
 pip3 freeze --local > requirements.txt
-echo web: app.py > Procfile
+echo web: pyrhon app.py > Procfile
 The Procfile sometimes has a blank line below. Remove that and go on to Heroku.com
 
 After the requirements and the Procfile are created, add them to the staging area by using Git add command. Commit and push them to the github repository
