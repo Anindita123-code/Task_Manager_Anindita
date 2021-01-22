@@ -1,3 +1,6 @@
 body{
-    background-color: blue;
+    background-color: #f9fbe7;
+}
+.text-shadow{
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
