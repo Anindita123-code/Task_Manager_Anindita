@@ -22,6 +22,7 @@
                 <div class="collapsible-body light-blue darken-1">
                     <strong>{{ task.category_name }}</strong>
                     <p>{{ task.task_description }}</p>
+                    <p><em>By: {{ task.user_name }}</em></p>
                 </div>
             </li>
         {% endfor %}
